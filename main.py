@@ -3,7 +3,7 @@ from typing import final
 from tkinter import *
 
 with open(
-    "/home/carmen/Documents/Programación/Repos/ascii-traductor/characters_dictionary.json",
+    "/Users/cmoreno/Documents/GitHub/text-converter/characters.json",
     "r",
 ) as file:
     char_dict = json.load(file)
